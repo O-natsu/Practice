@@ -2,7 +2,7 @@ $(function(){
     // 対象の要素を取得
     var loopSlider = $(".loop-slider");
     // 1周するまでの時間
-    var slideSec = 25000;
+    var slideSec = 20000;
  
     loopSlider.each(function(){
         var loopElem = $(this); // div .loop-slider
